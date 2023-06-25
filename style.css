@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fonteandroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+:root{
+    --verde0: #76F26D;
+    --verde1: #34F025;
+    --verde2: #27BD1C;
+    --verde3: #177011;
+    --verde4: #377032;
+    --branco: white;
+    --preto: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+
+body{
+    background-color: rgba(127, 255, 212, 0.438);
+    
+}
+
+
+section>h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(230, 230, 230);
+    background-image: linear-gradient(rgba(23, 197, 23, 0.87),rgb(39, 39, 39));
+    border-radius: 10px;
+}
+header>section{
+    text-align: center;
+}
+nav>a{
+    display: inline-block;
+    margin: 6px;
+    padding: 0px 10px;
+    color: var(--branco);
+}
+nav>a:hover{
+    background-color: rgba(0, 255, 34, 0.377);
+    border-radius: 30px;
+    color: black;
+}
+
+
+
+
+main{
+    min-width: 300px;
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+p{
+    margin: 15px 0px;
+}
+.titulo{
+    font-size: 30px;
+}
+.letrarobo{
+    margin: 3px;
+    font-family: 'fonteandroid';
+    color: rgb(0, 139, 0);
+}
+.corletra{
+    color: rgb(0, 114, 0);
+    font-weight: bolder;
+}
+.link:hover{
+    background-color: green;
+    color: white;
+}
+.fundo{
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.301), white);
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.androidcentral{
+    min-width: 150px;
+    max-width: 300px;
+}
+section#fim{
+    padding: 10px;
+    background-color: rgba(127, 255, 212, 0.438);
+    border-radius: 10px;
+}
+section#fim>h2{
+    background-color: rgb(3, 163, 3);
+    color: white;
+}
+ul{
+    padding: 15px;
+}
+footer>p{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--verde4);
+    color: var(--branco);
+}
